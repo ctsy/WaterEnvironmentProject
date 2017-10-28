@@ -1,0 +1,9 @@
+F:\水环境河流水质监测系统\JsonClass\bin\Debug\JsonClass.dll
+F:\水环境河流水质监测系统\JsonClass\bin\Debug\JsonClass.pdb
+F:\水环境河流水质监测系统\JsonClass\obj\Debug\JsonClass.dll
+F:\水环境河流水质监测系统\JsonClass\obj\Debug\JsonClass.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\JsonClass\bin\Debug\JsonClass.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\JsonClass\bin\Debug\JsonClass.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\JsonClass\obj\Debug\JsonClass.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\JsonClass\obj\Debug\JsonClass.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\JsonClass\obj\Debug\JsonClass.csprojResolveAssemblyReference.cache
