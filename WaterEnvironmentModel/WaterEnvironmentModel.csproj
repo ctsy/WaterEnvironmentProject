@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaterEnvironmentModel</RootNamespace>
+    <AssemblyName>WaterEnvironmentModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\T_Area.cs" />
+    <Compile Include="Base\T_Company.cs" />
+    <Compile Include="Base\T_Contractor.cs" />
+    <Compile Include="Base\T_DevGeneSet.cs" />
+    <Compile Include="Base\T_EquipmentParts.cs" />
+    <Compile Include="Base\T_Geneset.cs" />
+    <Compile Include="Base\T_GeneType.cs" />
+    <Compile Include="Base\T_Instrument.cs" />
+    <Compile Include="Base\T_OperatedLevel.cs" />
+    <Compile Include="Base\T_StationDev.cs" />
+    <Compile Include="Base\T_StationGeneSet.cs" />
+    <Compile Include="Base\T_StationInformation.cs" />
+    <Compile Include="Base\T_StationNet.cs" />
+    <Compile Include="Base\T_StationType.cs" />
+    <Compile Include="Base\T_Supplier.cs" />
+    <Compile Include="Base\V_Company.cs" />
+    <Compile Include="Base\V_Station2.cs" />
+    <Compile Include="Base\V_StationDev.cs" />
+    <Compile Include="Base\V_StationDevGene.cs" />
+    <Compile Include="Base\V_StationIp.cs" />
+    <Compile Include="PlatformData\A_994.cs" />
+    <Compile Include="PlatForm\T_Group.cs" />
+    <Compile Include="PlatForm\T_Right.cs" />
+    <Compile Include="PlatForm\T_User.cs" />
+    <Compile Include="PlatForm\T_UserStation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PlatformData\T_AbnormalData.cs" />
+    <Compile Include="PlatformData\T_DataMemory.cs" />
+    <Compile Include="PlatformData\T_MaintainRecord.cs" />
+    <Compile Include="PlatformData\T_OriginalDataSave.cs" />
+    <Compile Include="PlatformData\T_ProblemData.cs" />
+    <Compile Include="PlatformData\T_ProductLedger.cs" />
+    <Compile Include="PlatformData\T_ReissueData.cs" />
+    <Compile Include="PlatformData\T_ReturnCommand.cs" />
+    <Compile Include="PlatformData\T_ReturnCommandResult.cs" />
+    <Compile Include="PlatformData\T_State.cs" />
+    <Compile Include="PlatformData\T_StationOnline.cs" />
+    <Compile Include="PlatformData\T_SummaryDaydata.cs" />
+    <Compile Include="PlatformData\T_SummaryHourdata.cs" />
+    <Compile Include="PlatformData\T_SummaryMinutedata.cs" />
+    <Compile Include="PlatformData\T_SummaryRealdata.cs" />
+    <Compile Include="PlatformData\T_SummaryRealdata_Last.cs" />
+    <Compile Include="PlatformData\T_TransmitSet.cs" />
+    <Compile Include="PlatformData\T_WarningNotice.cs" />
+    <Compile Include="PlatformData\T_WarningRecord.cs" />
+    <Compile Include="PlatformData\T_Wrong.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

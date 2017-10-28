@@ -1,0 +1,9 @@
+F:\水环境河流水质监测系统\WaterEnvironmentModel\bin\Debug\WaterEnvironmentModel.dll
+F:\水环境河流水质监测系统\WaterEnvironmentModel\bin\Debug\WaterEnvironmentModel.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentModel\obj\Debug\WaterEnvironmentModel.dll
+F:\水环境河流水质监测系统\WaterEnvironmentModel\obj\Debug\WaterEnvironmentModel.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\WaterEnvironmentModel\bin\Debug\WaterEnvironmentModel.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\WaterEnvironmentModel\bin\Debug\WaterEnvironmentModel.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\WaterEnvironmentModel\obj\Debug\WaterEnvironmentModel.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\WaterEnvironmentModel\obj\Debug\WaterEnvironmentModel.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\WaterEnvironmentModel\obj\Debug\WaterEnvironmentModel.csprojResolveAssemblyReference.cache
