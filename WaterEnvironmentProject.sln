@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WaterEnvironmentProject", "http://localhost:12408", "{0AA6DC46-CF2E-41C7-8E24-A4999E7D1FDD}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{1c78b7b8-f642-4229-bda8-dea4ce5f2ded}|PublicModelClass.dll;{71ed49cf-670f-4a93-bd3a-420a566d8bcf}|JsonClass.dll;{cc7ff45d-db79-4f5d-8f1d-19400b8ce81b}|WaterEnvironmentBLL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12408"
+		Debug.AspNetCompiler.PhysicalPath = "WaterEnvironmentProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12408\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12408"
+		Release.AspNetCompiler.PhysicalPath = "WaterEnvironmentProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12408\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WaterEnvironmentProject\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterEnvironmentBLL", "WaterEnvironmentBLL\WaterEnvironmentBLL.csproj", "{CC7FF45D-DB79-4F5D-8F1D-19400B8CE81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterEnvironmentDAL", "WaterEnvironmentDAL\WaterEnvironmentDAL.csproj", "{A38F3B98-181A-44ED-A1BD-DFE892FCD957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterEnvironmentModel", "WaterEnvironmentModel\WaterEnvironmentModel.csproj", "{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maticsoft.DBUtility", "Maticsoft.DBUtility\Maticsoft.DBUtility.csproj", "{B635490A-D919-4E65-87E9-04BE00D5BD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maticsoft.Common", "Maticsoft.Common\Maticsoft.Common.csproj", "{8E477788-70E1-455A-9170-2F89E49AF0EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonClass", "JsonClass\JsonClass.csproj", "{71ED49CF-670F-4A93-BD3A-420A566D8BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicModelClass", "PublicModelClass\PublicModelClass.csproj", "{1C78B7B8-F642-4229-BDA8-DEA4CE5F2DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA6DC46-CF2E-41C7-8E24-A4999E7D1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA6DC46-CF2E-41C7-8E24-A4999E7D1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA6DC46-CF2E-41C7-8E24-A4999E7D1FDD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA6DC46-CF2E-41C7-8E24-A4999E7D1FDD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC7FF45D-DB79-4F5D-8F1D-19400B8CE81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7FF45D-DB79-4F5D-8F1D-19400B8CE81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7FF45D-DB79-4F5D-8F1D-19400B8CE81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7FF45D-DB79-4F5D-8F1D-19400B8CE81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38F3B98-181A-44ED-A1BD-DFE892FCD957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38F3B98-181A-44ED-A1BD-DFE892FCD957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38F3B98-181A-44ED-A1BD-DFE892FCD957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38F3B98-181A-44ED-A1BD-DFE892FCD957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006F4CFC-F333-4CD7-8D13-DC26EB7EDF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B635490A-D919-4E65-87E9-04BE00D5BD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B635490A-D919-4E65-87E9-04BE00D5BD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B635490A-D919-4E65-87E9-04BE00D5BD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B635490A-D919-4E65-87E9-04BE00D5BD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E477788-70E1-455A-9170-2F89E49AF0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E477788-70E1-455A-9170-2F89E49AF0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E477788-70E1-455A-9170-2F89E49AF0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E477788-70E1-455A-9170-2F89E49AF0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ED49CF-670F-4A93-BD3A-420A566D8BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ED49CF-670F-4A93-BD3A-420A566D8BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ED49CF-670F-4A93-BD3A-420A566D8BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ED49CF-670F-4A93-BD3A-420A566D8BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C78B7B8-F642-4229-BDA8-DEA4CE5F2DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C78B7B8-F642-4229-BDA8-DEA4CE5F2DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C78B7B8-F642-4229-BDA8-DEA4CE5F2DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C78B7B8-F642-4229-BDA8-DEA4CE5F2DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
