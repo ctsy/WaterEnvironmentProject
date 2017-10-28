@@ -1,0 +1,4 @@
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\PublicModelClass\bin\Debug\PublicModelClass.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\PublicModelClass\bin\Debug\PublicModelClass.pdb
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\PublicModelClass\obj\Debug\PublicModelClass.dll
+F:\水环境河流水质监测系统\WaterEnvironmentProject.git\PublicModelClass\obj\Debug\PublicModelClass.pdb
